@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="booking-form-box">
+      <div class="radio-btn">
+        <input type="radio" class="btn" name="check" checked="checked"> <span> Round-trip</span>
+        <input type="radio" class="btn" name="check"> <span> One way</span>
+        <input type="radio" class="btn" name="check"> <span> Multi-city</span>
+      </div>
+
+      <div class="booking-form">
+        <label>Book a tour guide</label>
+        <input type="text" class="form-control" placeholder="How long do you need a tour guide?">
+
+        <label>Choose your destination</label>
+        <input type="text" class="form-control" placeholder="Where you wanna go?">
+
+        <div class="input-field"> 
+            <label>Departing on</label>
+            <input type="date" class="form-control select-date">
+        </div>
+
+        <div class="input-field"> 
+            <label>Returning on</label>
+            <input type="date" class="form-control select-date">
+        </div>
+        <div class="input-field"> 
+            <label>Adults </label>
+            <input type="number" class="form-control" value="1">
+        </div>
+
+        <div class="input-field"> 
+            <label>kids </label>
+            <input type="number" class="form-control" value="0">
+        </div>
+        <div class="input-field"> 
+            <label>Travel class </label>
+            <select class="customer-select">
+            <option value="1">Economy class</option>
+            <option value="2">Business class</option>
+        </select>
+        </div>
+        <div class="input-field">
+            <button type="button" class="btn btn-pr flight">Show booking</button>
+        </div>
+        
+
+      </div>
+    </div>
+</body>
+</html>
