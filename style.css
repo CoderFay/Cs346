@@ -39,8 +39,6 @@
     height: 100vh;
     background-image: linear-gradient(rgba(1, 0, 5, 0.3),rgba(4, 1, 17, 0.3));
 
-
-
 }
 
 nav{
@@ -615,12 +613,10 @@ nav ul li a{
     transition: ease 0.30s;
 
 }
-
 .contact-form form .submit-btn:hover{
     border: 2px solid #1e0e58;
     background-color: transparent;
     transform: scale(1.1);
-
 }
 
 /* Registration Form */
