@@ -728,10 +728,6 @@ nav ul li a{
     margin-bottom: 30px;
 }
 
-.stars i{
-    font-size: 20px;
-    color: rgb(197, 167, 44);
-}
 /* The message box is shown when the user clicks on the password field */
 #message {
     display:none;
