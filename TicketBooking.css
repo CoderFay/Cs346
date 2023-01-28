@@ -36,6 +36,16 @@ outline: none;
 background: transparent;
 color: #fff;
 }
+#input #inputgroup{
+    width: 300px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color: #fff; 
+}
  #input-group option{
     background: black;
 }
