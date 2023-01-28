@@ -19,20 +19,16 @@
         <input type="text" id="input-group" placeholder="To">
         <input type="text" id="input-group" placeholder="Departure Date">
         <input type="text" id="input-group" placeholder="Departure Time">
-        <select id="input-group" style="background: black;">
-            <option value="">Preferred Package</option>
-            <option value=""> platinum</option>
-            <option value="">gold</option>
-            <option value="">bronze</option>
-            <option value="">silver</option>
+        
+        <select id="input-group" style="background: black;"  name="tot" onchange="calculateAmount(this.value)" required >
+            <option value="" disabled selected> Preferred Package</option>
+            <option value="12.599" > platinum</option>
+            <option value="7.399">gold</option>
+            <option value="5.699">bronze</option>
+            <option value="4.399">silver</option>
         </select>
 
-        <select id="input-group" style="background: black;">
-            <option value="">Preferred seating</option>
-            <option value=""> economy class</option>
-            <option value="">business class</option>
-            <option value="">first class</option>
-        </select>
+        <input id="inputgroup" name="input-group" type="text" readonly placeholder="Ticket price is installment over 3 months">
     
     </div>
     <div id="input2">
