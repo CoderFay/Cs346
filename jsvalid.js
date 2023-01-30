@@ -56,7 +56,7 @@ myInput.onkeyup = function() {
     length.classList.add("invalid");
   }
 }
-function myFunction() {
+function showpass() {
     var x = document.getElementById("psw");
     if (x.type === "password") {
       x.type = "text";
