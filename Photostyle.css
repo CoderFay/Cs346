@@ -6,6 +6,59 @@
     --light-color: #fff;
 }
 
+nav{
+    width: 100%;
+    position: absolute;
+    background-color: rgb(2, 3, 3);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 60px;
+    margin: 2vh;
+    margin-left: 8%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 4vh;
+    margin-top: 0;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 500;   
+    text-decoration: none;
+    transition: ease 0.40s;
+}
+
+.navbar a:hover,.navbar a.active{
+    background: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -75,7 +128,7 @@ h1, h2, h3{
 
 /* header */
 #header{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header1.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('image/header1.jpg') center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -159,7 +212,7 @@ h1, h2, h3{
 
 /* work */
 #work{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('photographer.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('image/photographer.jpg') center/cover no-repeat fixed;
     color: var(--light-color);
 }
 #work .title h2, #work h3{
@@ -228,7 +281,7 @@ h1, h2, h3{
 }
 
 #insta{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('photographer2.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('image/photographer2.jpg') center/cover no-repeat fixed;
     min-height: 65vh;
 }
 #insta .title h2{
@@ -249,43 +302,90 @@ h1, h2, h3{
 .insta-grid > div:hover{
     transform: scale(0.9);
 }
+/* Footer */
 
-/* footer */
-#footer{
-    background-color: var(--dark-color);
-    color: var(--light-color);
+.footer{
+    margin-top: 80px;
+    background-color: rgb(0, 0, 0);
 }
+
+.foot{
+    padding: 20px 0;
+}
+
 .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.footlinks h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.footlinks h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    left: 0;
+    bottom: -7px;
+    background: rgb(255, 255, 255);
+}
+
+.footlinks ul li{
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footlinks ul li a{
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+    transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+    transform: translate(6px);
+    color: rgb(255, 255, 255);
+}
+
+.social a{
+    font-size: 25px;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    color: rgb(255, 255, 255);
+    background-color: #1e0e58;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease 0.30s;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+}
+
+.end{
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 12px;
 }
-.footer-content h3{
-    color: var(--light-color);
-    font-size: 2.5rem;
+
+.end p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
-}
-.footer-content ul{
-    flex-direction: column;
-}
-.footer-content ul li a{
-    color: var(--light-color);
-    font-size: 1.5rem;
-    transition: var(--transition);
-}
-.footer-content ul li a:hover{
-    opacity: 0.7;
-}
-.footer-content ul li{
-    margin: .5rem 1rem;
-}
-.footer-content > div:first-child{
-    margin-bottom: 3rem;
-}
-.footer-content > div:first-child div{
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    margin: 5rem auto;
-    border-radius: 50%;
+    font-weight: 300;
 }
 
 
