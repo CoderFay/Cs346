@@ -30,6 +30,7 @@ var app = express();
 var bodyparser=require('body-parser');
 var urlncodedParser=bodyparser.urlencoded({extended:false});
 app.post('/post_reg',urlncodedParser,function(req,res){
+console.log(req.body);
     let response={
 
         name:req.body.name,
