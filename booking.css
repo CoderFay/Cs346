@@ -1,11 +1,81 @@
 /* booking styling */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border;
+    font-family:'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(2, 3, 3);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 60px;
+    margin: 2vh;
+    margin-left: 8%;
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    float: left;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 4vh;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 500;   
+    text-decoration: none;
+    transition: ease 0.40s;
+}
+
+.navbar a:hover,.navbar a.active{
+    background: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.content{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 10vh;
+}
 body{
-/*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),url(KingdomTower.jpeg));*/
 background: url('saudi.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 }
 .booking-form-box{
+background-color: #000;
+opacity: 0.7;
 max-width: 350px;
 border: 1px solid #dfe3e3;
 margin: 10% auto 0;
