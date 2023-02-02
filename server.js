@@ -31,12 +31,11 @@ var bodyparser=require('body-parser');
 
 var urlncodedParser=bodyparser.urlencoded({extends:false});
 app.post('/post_reg',urlncodedParser,function(req,res){
-console.log(req.body);
     let response={
 
-        name:req.body.name,
-        email:req.body.email,
-        psw:req.body.psw,
+        Name:req.body.Name,
+        Email:req.body.Email,
+        Password:req.body.Password,
     };
     console.log(response);
     res.end(JSON.stringify(response));
