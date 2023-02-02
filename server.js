@@ -28,7 +28,8 @@ app.listen(3000,function(){
 var express = require('express');
 var app = express();
 var bodyparser=require('body-parser');
-var urlncodedParser=bodyparser.urlencoded({extended:false});
+
+var urlncodedParser=bodyparser.urlencoded({extends:false});
 app.post('/post_reg',urlncodedParser,function(req,res){
 console.log(req.body);
     let response={
