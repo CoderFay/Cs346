@@ -1,4 +1,5 @@
-
+checkpass();
+function checkpass(){
 var myInput = document.getElementById("psw");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
@@ -55,6 +56,7 @@ myInput.onkeyup = function() {
     length.classList.remove("valid");
     length.classList.add("invalid");
   }
+}
 }
 function showpass() {
     var x = document.getElementById("psw");
