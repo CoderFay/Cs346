@@ -27,5 +27,14 @@ We used forms and buttons and animation to make our website looks beautiful and 
 
 
 ## 4.Business Logic
+1.	https://github.com/prabinmagar/photographer-portfolio-site-html-css.
+2.	https://github.com/mohdrahil101/firstflight-travels.git
+3.	https://github.com/prabinmagar/category-filter
+4.	https://youtu.be/_4nl6DZf-R4
+5.	https://youtu.be/yjfjQVawwnA
+6.	https://youtu.be/FBXu5t2r9Vg
+7.	https://youtu.be/25AiXy8e09E
+8.	https://www.w3schools.com/howto/howto_js_toggle_password.asp
+9.	https://www.w3schools.com/howto/howto_js_password_validation.asp
 
 
