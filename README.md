@@ -13,10 +13,10 @@ FAY ALOMAR   | 441020200
 In this project, We have created a website that expresses tourism and travel in the Kingdom of Saudi Arabia. Our website is clear and easy. Our goal is to provide reservation services in a new and innovative way, which is to provide tourists with a ticket installment service for a period of three months. We also have a photo booking service, and  we made sure to provide information about tourist cities in Saudi Arabia.
 ## Goals
 1. The site aims to know the cultural heritage, customs and traditions of the Kingdom of Saudi Arabia
-And visit historical sites
-2 . Providing ease of booking, enjoying travel, and providing services to facilitate tourists, such as paying in installments
-3. Visiting events and festivals throughout the Kingdom
-4. Increasing the number of tourists in the Kingdom to serve the vision 2030. 
+And visit historical sites <br>
+2 . Providing ease of booking, enjoying travel, and providing services to facilitate tourists, such as paying in installments , <br>
+3. Visiting events and festivals throughout the Kingdom <br>
+4. Increasing the number of tourists in the Kingdom to serve the vision 2030. <br>
 
 #### Home Page
 ![websiteeee](https://user-images.githubusercontent.com/104152519/216836729-2b5188e2-1a14-40d5-938e-a0fcefc79bff.jpg)
