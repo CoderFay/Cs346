@@ -12,6 +12,9 @@ FAY ALOMAR   | 441020200
 ## Overiew
 In this project, We have created a website that expresses tourism and travel in the Kingdom of Saudi Arabia. Our website is clear and easy. Our goal is to provide reservation services in a new and innovative way, which is to provide tourists with a ticket installment service for a period of three months. We also have a photo booking service, and  we made sure to provide information about tourist cities in Saudi Arabia.
 
+### Home Page
+![websiteeee](https://user-images.githubusercontent.com/104152519/216836729-2b5188e2-1a14-40d5-938e-a0fcefc79bff.jpg)
+
 ## 1.FlowChart
 ![Screenshot 2023-02-05 200906](https://user-images.githubusercontent.com/104152519/216833720-b87933e9-c21b-4fd4-aa28-60745e4a2645.jpg)
 
