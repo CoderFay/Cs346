@@ -20,6 +20,11 @@ We used forms and buttons and animation to make our website looks beautiful and 
 
 ## 3.Dynamic Components
 
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
+
 ## 4.Business Logic
 
 
