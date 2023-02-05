@@ -2,10 +2,10 @@
 
 ##  Saudi Travel & Tourism
 ### Students
-Fay Almagati | 
-Rana Alsubaie |
-Razan Alyami | 
-Fay Alomar
+Student Name  | Student ID
+------------- | -------------
+Rana   | Content Cell
+Fay  | 441021620
 ## Overiew
 In this project, We have created a website that expresses tourism and travel in the Kingdom of Saudi Arabia. Our website is clear and easy. Our goal is to provide reservation services in a new and innovative way, which is to provide tourists with a ticket installment service for a period of three months. We also have a photo booking service, and  we made sure to provide information about tourist cities in Saudi Arabia.
 
