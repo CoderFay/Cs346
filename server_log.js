@@ -6,7 +6,7 @@ var app = express();
 var bodyparser=require('body-parser');
 
 var urlncodedParser=bodyparser.urlencoded({extends:false});
-app.post('/post_reg',urlncodedParser,function(req,res){
+app.post('/post_log',urlncodedParser,function(req,res){
     let response={
 
         Email:req.body.myemail,
