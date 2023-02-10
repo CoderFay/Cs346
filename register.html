@@ -33,10 +33,10 @@
     <section class="registerlogin">
         <div class="registerlogin-form">
             <h1>Register <span>Here</span></h1>
-            <form  action="http://localhost:3000/post_reg" method="POST" class="form">
+            <form  action="http://localhost:3000/get_reg" method="get" class="form">
              
             <input type="text" name="Name" placeholder="Name" id="name" required>
-            <input type="email" name="Email" placeholder="Email-Id" id="" required>
+            <input type="email" name="Email" placeholder="Email-Id" id="email" required>
             <input type="password" name="Password" placeholder="Password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
             <br> 
             <!-- An element to toggle between password visibility -->
