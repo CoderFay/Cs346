@@ -21,7 +21,7 @@ In this project, We have created a website that expresses tourism and travel in 
 
 #### Home Page
 ![image](https://user-images.githubusercontent.com/114013450/218224764-35038ee3-02ee-4604-9484-ee54ff5cfad7.png)
-![image](https://user-images.githubusercontent.com/114013450/218224992-67f010c4-546b-4e7b-acaa-771208fed734.png)
+![image](https://user-images.githubusercontent.com/114013450/218225284-bd26af17-1f4a-44ca-80a4-a839d9979687.png)
 ![image](https://user-images.githubusercontent.com/114013450/218225068-a62f1ffe-0d57-4a53-8710-6b863aab198e.png)
 ![image](https://user-images.githubusercontent.com/114013450/218225125-215a6412-ae6d-4f5e-aca0-f48b8c3961af.png)
 ![image](https://user-images.githubusercontent.com/114013450/218225182-00314134-966c-4937-b817-2f25a7f6ef8f.png)
