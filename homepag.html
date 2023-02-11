@@ -239,11 +239,16 @@
     </div>
 
     <div class="end">
-        <p>&copy; 2023 urtrips.com</p>
+        <p>&copy; 2023 urtrips.com</p>  <p id="date"></p>
     </div>
 </section>
 
 
  
 </body>
+ <script>
+    var date = new Date();
+
+    document.getElementById("date").innerHTML = date.toLocaleDateString();
+</script>        
 </html>
