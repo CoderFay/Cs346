@@ -9,7 +9,7 @@ FAY AlMAGATI | 441021620
 RAZAN ALYAMI | 441020231
 FAY ALOMAR   | 441020200
 
-## Overiew
+## Overview
 In this project, We have created a website that expresses tourism and travel in the Kingdom of Saudi Arabia. Our website is clear and easy. Our goal is to provide reservation services in a new and innovative way, which is to provide tourists with a ticket installment service for a period of three months. We also have a photo booking service, and  we made sure to provide information about tourist cities in Saudi Arabia.
 ## Goals
 1.	The site aims to know the cultural heritage, customs and traditions of the Kingdom of Saudi Arabia and visit historical sites
