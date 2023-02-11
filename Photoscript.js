@@ -1,9 +1,12 @@
 function total(){
-    var days = document.getElementById("days").value;
+    let days = document.getElementById("days").value;
 
-    
-   var total = days * 300;
+  let myfunction = (a) => a*300;
+  let total2 = myfunction(days);
 
-    document.getElementById("Total").innerHTML = " Your Total is "+total+"R";
+    document.getElementById("Total").innerHTML = " Your Total is "+total2+"R";
+
+
+ 
     
 }
