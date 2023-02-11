@@ -20,7 +20,13 @@ In this project, We have created a website that expresses tourism and travel in 
 ## Preview
 
 #### Home Page
-![websiteeee](https://user-images.githubusercontent.com/104152519/216836729-2b5188e2-1a14-40d5-938e-a0fcefc79bff.jpg)
+![image](https://user-images.githubusercontent.com/114013450/218224764-35038ee3-02ee-4604-9484-ee54ff5cfad7.png)
+![image](https://user-images.githubusercontent.com/114013450/218225284-bd26af17-1f4a-44ca-80a4-a839d9979687.png)
+![image](https://user-images.githubusercontent.com/114013450/218225068-a62f1ffe-0d57-4a53-8710-6b863aab198e.png)
+![image](https://user-images.githubusercontent.com/114013450/218225125-215a6412-ae6d-4f5e-aca0-f48b8c3961af.png)
+![image](https://user-images.githubusercontent.com/114013450/218225182-00314134-966c-4937-b817-2f25a7f6ef8f.png)
+![image](https://user-images.githubusercontent.com/114013450/218225216-c26f5107-921f-4d82-92d7-afda48423865.png)
+
 
 ## 1.FlowChart
 ![Screenshot 2023-02-05 200906](https://user-images.githubusercontent.com/104152519/216833720-b87933e9-c21b-4fd4-aa28-60745e4a2645.jpg)
